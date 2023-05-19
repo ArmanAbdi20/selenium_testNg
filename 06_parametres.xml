@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite">
+
+    <test name="test">
+        <parameter name="isim" value="Abdi"></parameter>
+        <classes>
+            <class name="cw.tests.Day16.C01_Parametres">
+                <methods>
+                    <include name="parameterizedTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

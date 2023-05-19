@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite" data-provider-thread-count="3">
+    <test name="ParalelelDataProvider">
+        <classes>
+            <class name="cw.tests.Day17.C04_ParalelDataProvider"></class>
+        </classes>
+    </test>
+</suite>

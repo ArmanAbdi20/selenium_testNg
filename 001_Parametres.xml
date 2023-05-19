@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="test">
+        <parameter name="searchWords" value="Java"></parameter>
+        <parameter name="searchWords" value="Selenium"></parameter>
+        <classes>
+            <class name="cw.tests.Day18.HomeWork.ParametersHomework"></class>
+        </classes>
+
+    </test>
+
+</suite>
